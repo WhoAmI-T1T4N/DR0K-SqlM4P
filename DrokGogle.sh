@@ -56,9 +56,7 @@ echo -e $green "2]. Dork Games Random"
 echo -e $green "3]. Dork Bypass"
 echo -e $green "4]. Dork RFM"
 echo -e $green "5]. Dork Berita"
-echo -e $green "6]. Dork Web Negeri"
-echo -e $green "7]. Dork Site"
-echo -e $green "8]. Tebas Shell Orang"
+echo -e $green "6]. Dork CarDing"
 echo -e $green "00]. Keluar Lu"
 echo -e $black "#######################"
     read -p "Masukan Aja :" who
@@ -147,5 +145,74 @@ echo -e $red "TUNGGU NGAB"
      sleep 5
         echo -e $yellowlight "inurl:login.php?id="
      sleep 5
-        echo -e $green "TUNGGU BESOK LAGI"
+        echo -e $yellowlight "inurl:admin/login.php?id="
+     sleep 5
+       echo -e $yellowlight "inurl:/admin/upload.aspx?id="
+     sleep 5
+       echo -e $yellowlight "inurl:/administrasi/index.php?id="
+     sleep 5
+       echo -e $yellowlught "inurl:/administrator/modules/mod_photo/"
+fi
+if [[ $who == 4 || $who == 4 ]]
+then
+clear
+echo -e $red "TUNGGU SOB"
+     sleep 5
+        echo -e $yellowlight "Webdesign by: criativo.net"
+     sleep 5
+        echo -e $yellowlight "Webdesign by: basicamente.pt"
+     sleep 5
+        echo -e $yellowlight "Webdesign by: risema.pt"
+fi
+if [[ $who == 5 || $who == 5 ]]
+then
+clear
+echo -e $red "TUNGGU SOB"
+      sleep 5
+         echo -e $yellowlight "inurl:/news.php?id="
+      sleep 5
+         echo -e $yellowlight "inurl:/news.php?id= site:.id"
+      sleep 5
+         echo -e $yellowlight "inurl:/dialog.php?id="
+      sleep 5
+         echo -e $yellolight "inurl:/dialog.php?id= site:.id"
+fi
+if [[ $who == 6 || $who == 6 ]]
+then
+clear
+echo -e $red "TUNGGU SOB"
+      sleep 5
+         echo -e $yellowlight "inurl:product_detail.asp?catalogid="
+      sleep 5
+         echo -e $yellowlight "inurl:itemdetails.asp?catalogId="
+      sleep 5
+         echo -e $yellowlight "inurl:index.cfm?Category_ID="
+      sleep 5
+         echo -e $yellowlight "inurl:shopdisplayproducts.asp?catalogid="
+      sleep 5
+         echo -e $yellowlight "inurl:DisplayProducts.asp?prodcat="
+      sleep 5
+         echo -e $yellowlight "inurl:default.cfm?action=46"
+      sleep 5
+         echo -e $yellowlight "inurl:category.asp?category="
+      sleep 5
+         echo -e $yellowlight "inurl:view_product.asp?productID="
+      sleep 5
+         echo -e $yellowlight "inurl:products.php?subcat_id="
+      sleep 5
+         echo -e $yellowlight "inurl:product_detail.asp?product_id="
+      sleep 5
+         echo -e $yellowlight "inurl:products.cfm?ID="
+      sleep 5
+         echo -e $yellowlight "inurl:products.php?subcat_id="
+      sleep 5
+         echo -e $yellowlight "inurl:displayproducts.cfm?id="
+      sleep 5
+        echo -e $yellowlight "inurl:”.php?id= intext:View cart"
+fi
+if [[ $who == 00 || $who == 00 ]]
+then
+figlet "Anak"|lolcat
+figlet "ASU"|lolcat
+exit
 fi
