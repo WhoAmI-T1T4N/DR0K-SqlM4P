@@ -136,7 +136,7 @@ echo -e $red "TUNGGU NGAB"
      sleep 5
         echo -e $yellowlight "inurl:gaming arcade.psml?cat="
      sleep 5
-        echo -e $yellowlight "inurl:careers.asp?type=
+        echo -e $yellowlight "inurl:careers.asp?type="
 fi
 if [[ $who == 3 || $who == 3 ]]
 then
