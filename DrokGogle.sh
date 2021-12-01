@@ -143,7 +143,7 @@ then
 clear
 echo -e $red "TUNGGU NGAB"
      sleep 5
-        echo -e $yellowlight "inurl:/index.php/login.phpid?"
+        echo -e $yellowlight "inurl:/index.php/login.php?id"
      sleep 5
         echo -e $yellowlight "inurl:login.php?id="
      sleep 5
