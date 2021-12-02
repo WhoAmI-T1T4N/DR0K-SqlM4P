@@ -24,4 +24,6 @@ bash DrokGogle.sh
 ```
 Jika Ada Bug Hubungi Saja : 
 085781807743
+Jangan Lupa Subsribe YT 
+T1T4N TZY
 ```
